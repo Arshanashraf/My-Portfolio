@@ -1,0 +1,18 @@
+.navbar{
+    background-color: rgba(0,20,27,255);
+    margin: 0;
+    padding: 0;
+    height: 12vh;
+}
+.logo img{
+    height: 70px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo span{
+    background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
+    background-clip: text;
+    color: transparent;
+}
