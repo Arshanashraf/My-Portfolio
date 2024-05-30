@@ -1,0 +1,36 @@
+.work{
+    margin-top: 200px;
+}
+.workContent {
+    text-align: center;
+}
+.workContent h1{
+    color: #fff;
+    font-weight: 700;
+
+}
+.workContent span{
+    background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    font-size: 60px;
+}
+.workContent p{
+    color: rgb(197, 197, 197);
+    width: 50%;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 330px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+.mylogo img{
+    width: 150px;
+    margin-left: 580px;
+    border-radius: 100%;
+}
+.skillLogos img{
+    width: 40px;
+    position: absolute;
+}

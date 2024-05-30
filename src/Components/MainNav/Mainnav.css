@@ -1,18 +1,82 @@
 .navbar{
-    background-color: rgba(0,20,27,255);
+    /* background-color: rgba(0,20,27,255); */
+    /* background-color: red; */
+    height: 12vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1000000000;
+}
+.container{
     margin: 0;
     padding: 0;
-    height: 12vh;
 }
 .logo img{
     height: 70px;
+    border-radius: 50%;
+    margin-right: 5px;
 }
 .logo{
     font-size: 30px;
     font-weight: 700;
+    margin-left: 70px;
+    position: sticky;
+    animation: slideRight 1s forwards;
+    animation-delay: .5s;
+    opacity: 0;
 }
 .logo span{
     background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
     background-clip: text;
     color: transparent;
+}
+.nav{
+    font-size: 18px;
+    font-weight: 500;
+    gap: 30px;
+    margin-left: 80px;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .8s;
+    opacity: 0;
+}
+.navlink{
+    transition: .3s ease;
+}
+.navlink.active,
+.navlink:hover{
+    background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
+    background-clip: text;
+    color: transparent !important;
+    transform: scale(1.1);
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .nav{
+        margin-right: 3px;
+        gap: 10px;
+    }
+}
+@media (max-width: 575px){
+    .container{
+        margin-top: -10px;
+    }
+    .nav{
+        background-color: rgba(0,20,27,255);
+        text-align: center;
+        margin-top: -10px;
+        gap: 10px;
+        border-radius: 0px 0px 0px 25px;
+        width: 200px;
+        /* margin-right: 60px; */
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+@media (max-width: 365px){
+    .nav{
+        display: none;
+    }
+}
+@media (min-height:80000px) and (max-height: 1000px){
+    .navbar{
+        background-color: rgba(0,20,27,255);
+    }
 }
