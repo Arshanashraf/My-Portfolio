@@ -6,15 +6,15 @@ import './Mainnav.css'
 const MainNav = () => {
   return (
     <div>
-       <Navbar expand="lg" className="navbar">
-      <Container>
+       <Navbar expand="md" className="navbar-dark">
+      <Container className='container'>
         <Navbar.Brand href="#home" className='logo text-light'> <img src={logo} alt="" />Arshan<span>Dev</span></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle className="toggle"aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link className="text-light" href="#about">About</Nav.Link>
-            <Nav.Link className="text-light"  href="#work">Work</Nav.Link>
-            <Nav.Link className="text-light" href="#contact">Contact</Nav.Link>
+          <Nav className="nav ms-auto">
+            <Nav.Link className="navlink text-light" href="#about">About</Nav.Link>
+            <Nav.Link className="navlink text-light"  href="#work">Work</Nav.Link>
+            <Nav.Link className="navlink text-light" href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

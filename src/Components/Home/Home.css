@@ -1,0 +1,242 @@
+.home {
+    background: url('../../assets/Images/bg2.jpeg');
+    height: 607px;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    /* z-index: -100%; */
+    background-size: cover;
+}
+.intro{
+    padding-top: 200px;
+    padding-left: 80px;
+}
+.myIntro{
+    position: absolute;
+    z-index: 100;
+}
+.intro h1{
+    color: white;
+    /* width: 100%; */
+    font-weight: 700;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    
+}
+.name{
+    background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 2s;
+    opacity: 0;
+    /* text-shadow: 2px 2px 5px rgba(108,211,108,255); */
+}
+/* .greet{
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+} */
+.intro p{
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 30px;
+    width: 600px;
+    line-height: 30px;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1.6s;
+    opacity: 0;
+}
+.intro button{
+    color: white;
+    border-radius: 50px;
+    border-width: 0;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    background: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255));
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    opacity: 0;
+    
+}
+.intro button:hover{
+    background: #fff;
+    background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
+    background-clip: text;
+    color: transparent;
+    border: 2px solid rgba(45,190,184,255);
+
+}
+.mypic img{
+    height: 300px;
+    margin-left: 100px;
+    /* border-radius: 25px 0px 25px 0px; */
+    /* border-radius: 15%; */
+    /* box-shadow: 20px 20px 30px rgba(45,190,184,255) ; */
+    transition: .3s ease;
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+
+.gear1 img{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    height: 350px;
+    opacity: 0.9;
+    animation: spin 3s linear infinite;
+}
+.gear2 img{
+    position: absolute;
+    top: 50%;
+    right: 9%;
+    height: 250px;
+    opacity: 0.9;
+    animation: reverseSpin 4s linear infinite;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg) ;
+    }
+}
+@keyframes reverseSpin{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+/* key frames slider animations */
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1115px){
+    .mypic img{
+        margin-left: 10px;
+    }
+    .intro h1{
+        width: 500px;
+    }
+    .intro p{
+        width: 500px;
+    }
+}
+@media (min-width: 703px) and (max-width: 991px){
+    .home {
+        height: 900px;
+    }
+    .mypic img{
+        margin-top: 350px;
+        height: 350px;
+    }
+    .intro h1{
+        width: 100%;
+    }
+    .intro p{
+        width: 80%;
+    }
+    .gear1 img{
+        top: 70%;
+        left: 20%;
+    }
+    .gear2 img{
+        top: 100%;
+        right: 15%;
+    }
+}
+@media (min-width: 640px) and (max-width: 702px){
+    .home {
+        height: 900px;
+    }
+    .mypic img{
+        margin-top: 350px;
+        margin-left: 40px;
+        
+    }
+    .intro h1{
+        width: 100%;
+    }
+    .intro p{
+        width: 90%;
+    }
+    .gear1 img{
+        top: 70%;
+        left: 20%;
+    }
+    .gear2 img{
+        top: 100%;
+        right: 15%;
+    }
+}
+@media  (max-width: 639px){
+    .home {
+        height: 900px;
+    }
+    .mypic img{
+        margin-top: 450px;
+        margin-left: 0px;
+        height: 250px;
+        
+    }
+    .intro h1{
+        width: 100%;
+    }
+    .intro p{
+        width: 90%;
+    }
+    .gear1 img{
+        top: 100%;
+        left: 10%;
+        height: 250px;
+    }
+    .gear2 img{
+        top: 120%;
+        right: 10%;
+        height: 200px;
+    }
+}
