@@ -3,10 +3,13 @@
 }
 .workContent {
     text-align: center;
+    /* position: absolute; */
 }
 .workContent h1{
     color: #fff;
     font-weight: 700;
+    position: relative;
+    z-index: 10;
 
 }
 .workContent span{
@@ -24,13 +27,190 @@
     margin-left: 330px;
     text-align: center;
     margin-bottom: 300px;
+    position: relative;
+    z-index: 10;
+}
+.mylogo{
+    position: absolute;
+    z-index: 10;
 }
 .mylogo img{
     width: 150px;
-    margin-left: 580px;
+    margin-left: 535px;
     border-radius: 100%;
+    
 }
 .skillLogos img{
-    width: 40px;
+    width: 80px;
+    /* z-index: -1; */
+    
+}
+.html{
     position: absolute;
+    top: 1120px;
+    left: 5%;
+    /* z-index: -1; */
+}
+.npm{
+    position: absolute;
+    top: 1170px;
+    left: 25%;
+}
+.typescript{
+    position: absolute;
+    top: 1200px;
+    /* left: 20%; */
+}
+.java{
+    position: absolute;
+    top: 1100px;
+    left: 40%;
+}
+.react{
+    position: absolute;
+    top: 1140px;
+    right: 45%;
+}
+.boot{
+    position: absolute;
+    top: 1180px;
+    right: 44%;
+}
+.css{
+    position: absolute;
+    top: 1150px;
+    right: 45%;
+}
+.node{
+    position: absolute;
+    top: 1270px;
+    right: 45%;
+}
+.git{
+    position: absolute;
+    top: 1100px;
+    right: 44%;
+}
+.allskilllogos{
+    margin-top: 100px;
+}
+.allskilllogos img{
+    height: 100px;
+}
+.allskills{
+    width: 70%;
+    margin-left: 200px;
+}
+.allskilllogos1{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.git1 img{
+    height: 120px;
+}
+
+@media (min-width:1070px)and (max-width: 1115px){
+    .workContent p{
+        margin-bottom: 230px;
+    }
+    .mylogo img{
+        margin-left: 415px;
+    }
+    .html{
+        left: -10%;
+    }
+    .typescript{
+        left: -10%;
+    }
+    .npm{
+        left: 15%;
+    }
+    .allskilllogos{
+        margin-left: -70px;
+    }
+    .allskilllogos1{
+        margin-left: 120px;
+    }
+}
+@media (min-width:992px)and (max-width: 1069px){
+    .workContent p{
+        margin-bottom: 200px;
+    }
+    .mylogo img{
+        margin-left: 415px;
+    }
+    .html{
+        left: -10%;
+    }
+    .typescript{
+        left: -10%;
+    }
+    .npm{
+        left: 16%;
+    }
+    .allskilllogos{
+        margin-left: -70px;
+    }
+    .allskilllogos1{
+        margin-left: 100px;
+        
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .workContent p{
+        margin-bottom: 0px;
+        margin-left: 50px;
+        width: 90%;
+    }
+    .skills {
+        display: none;
+    }
+    .allskills{
+        /* display: flex; */
+        width: 75%;
+        margin-left: 90px;
+        
+    }
+    .allskilllogos1{
+        margin-left: 190px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .skills {
+        display: none;
+    }
+    .workContent p{
+        margin-bottom: 0px;
+        margin-left: 50px;
+        width: 90%;
+    }
+    .allskills{
+        margin-left: 100px;
+        
+    }
+    .allskilllogos1{
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+    .git1 img{
+        margin-left: 160px;
+    }
+}
+@media (max-width: 575px){
+    .skills {
+        display: none;
+    }
+    .workContent p{
+        margin-bottom: 0px;
+        margin-left: 30px;
+        width: 90%;
+    }
+    .allskills{
+        margin-left: 70px;
+        
+    }
+    .allskilllogos1{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
 }

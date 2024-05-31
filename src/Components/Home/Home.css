@@ -1,10 +1,9 @@
 .home {
     background: url('../../assets/Images/bg2.jpeg');
     height: 607px;
-    /* width: 100%; */
     background-repeat: no-repeat;
-    /* z-index: -100%; */
     background-size: cover;
+    overflow-x: hidden;
 }
 .intro{
     padding-top: 200px;

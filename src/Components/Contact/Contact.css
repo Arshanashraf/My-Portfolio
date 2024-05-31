@@ -1,0 +1,87 @@
+.contact{
+    width: 50%;
+    margin: 10rem 20rem;
+    background-color: rgb(6, 0, 29);
+    padding: 5rem 5rem;
+    border-radius: 50px;
+    position: relative;
+    
+}
+.contact h1{
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+.contact span{
+    font-size: 50px;
+    font-weight: 900;
+    background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
+    background-clip: text;
+    color: transparent;
+}
+.messageBox{
+    height: 200px;
+}
+.checkBox{
+    margin-top: 40px;
+    color: #fff;
+}
+.name1{
+    color: #fff !important;
+}
+.btn{
+    background: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255));
+    border-radius: 25px;
+    margin-top: 10px;
+    font-weight: 500;
+    padding: .5rem 1.5rem;
+    border-color: rgba(45,190,184,255);
+    transition: .3s ease;
+}
+.btn:hover{
+    background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
+    background-clip: text;
+    color: transparent;;
+    
+}
+.floatingpics img{
+    width: 130px;
+    opacity: .6;
+}
+.floatingImage1{
+    position: absolute;
+    top: 550%;
+    left: 15%;
+    transform: rotate(-30deg);
+    animation: float 5s ease-out infinite;
+}
+.floatingImage2{
+    position: absolute;
+    top: 600%;
+    left: 10%;
+    transform: rotate(30deg);
+    animation: float 5s ease-out infinite;
+    animation-delay: .5s;
+}
+.floatingImage3{
+    position: absolute;
+    top: 570%;
+    right: 10%;
+    transform: rotate(30deg);
+    animation: float 5s ease-out infinite;
+    animation-delay: .10s;
+}
+.floatingImage4{
+    position: absolute;
+    top: 610%;
+    right: 15%;
+    transform: rotate(-30deg);
+    animation: float 5s ease-out infinite;
+    animation-delay: .8s;
+}
+@keyframes float{
+    50%{
+        transform: translateY(50px);
+    }
+}

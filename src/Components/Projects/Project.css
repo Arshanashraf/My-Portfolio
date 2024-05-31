@@ -1,0 +1,52 @@
+.projectContent{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.projectContent h1{
+    color: white;
+}
+.projectContent span{
+    font-size: 60px;
+    font-weight: 900;
+    background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
+    background-clip: text;
+    color: transparent;
+}
+.projectContent p{
+    width: 65%;
+    margin-top: 40px;
+    color: rgb(184, 184, 184);
+    font-size: 18px;
+    font-weight: 500;
+}
+.card{
+    background: linear-gradient(rgba(45,190,184,255),rgba(108,211,108,255));
+    border-radius: 25px;
+    border-width: 1px;
+    transition: transform .3s ease ;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.projectCards{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+.card img{
+    width: 95%;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 2px solid rgba(45,190,184,255);
+}
+.card .title{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+}
+.card .text{
+    color: rgb(241, 241, 241);
+}
