@@ -28,6 +28,8 @@
     background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
     background-clip: text;
     color: transparent;
+    font-size: 35px;
+    font-weight: 900;
 }
 .nav{
     font-size: 18px;

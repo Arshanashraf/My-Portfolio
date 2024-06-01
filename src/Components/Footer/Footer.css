@@ -1,0 +1,72 @@
+.footerlogo img{
+    width: 100px;
+    border-radius: 50%;
+}
+.footer{
+    background-color: rgba(0,20,27,255);
+    padding: 4rem 6rem;
+}
+.footerlogo{
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
+.footerlogo span{
+    background-image: linear-gradient(rgba(108,211,108,255),rgba(45,190,184,255)) ;
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    font-weight: 900;
+}
+.foopara p{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border-left: 1px solid #fff;
+    padding-left: 10px;
+}
+.foolist ul{
+    margin-top: 2.5rem ;
+    margin-left: 5rem;
+}
+.foolist ul li{
+    list-style: none;
+    line-height: 30px;
+}
+.foolist ul li a{
+    color: white;
+    text-decoration: none;
+}
+.foolist ul li a:hover{
+    text-decoration: underline;
+    transform: scale(1.5);
+}
+.iconlogos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.iconhead{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.iconlogos a{
+    font-size: 24px;
+    color: #fff;
+}
+.iconlogos a:hover{
+    color: #c9c9c9;
+}
+.fooicons{
+    margin-top: 2.7rem;
+    margin-left: 3rem;
+}
+.copyrightpara{
+    color: #a3a2a2;
+    border-top: 1px solid #a3a2a2;
+    margin-top: 40px;
+    padding: .5rem 2rem;
+}
