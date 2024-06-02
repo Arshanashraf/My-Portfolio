@@ -10,7 +10,8 @@ const Home = () => {
         <Col lg="6" md="12">
             <div className='myIntro'>
                 <h1>Greetings, I'm  <span className='name'> M.Arshan Ashraf</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis nostrum totam vel, molestiae in voluptate maxime, illo minima hic fuga dignissimos inventore est odio? Nesciunt aperiam soluta dolorum dolor.</p>
+                <p>"Architects of the digital realm, shaping dreams into reality, one keystroke at a time."</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis nostrum totam vel, est odio? Nesciunt aperiam soluta dolorum dolor.</p>
                 <button>Download Resume</button>
             </div>
         </Col>
