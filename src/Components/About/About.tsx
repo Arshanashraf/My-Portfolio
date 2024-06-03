@@ -5,11 +5,11 @@ import Slider1 from "../../assets/Images/aboutPics/slider1.png";
 import './About.css'
 const About = () => {
   return (
-    <div>
-      <div className="about">
+    <div >
+      <div className="about" >
         <Row>
           <Col lg="6">
-            <div className="aboutContent">
+            <div className="aboutContent" >
             <h1>Personal <span>Overview</span></h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -20,7 +20,7 @@ const About = () => {
             </div>
             
           </Col>
-          <Col lg="6" md="12">
+          <Col lg="6" md="12" >
             <div className="slider">
               <Carousel className="carousel" fade>
                 <Carousel.Item>
@@ -44,7 +44,7 @@ const About = () => {
                 <Carousel.Item>
                   <img src={Slider1} />
                   <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    <h3 >Third slide label</h3>
                     <p>
                       Praesent commodo cursus magna, vel scelerisque nisl
                       consectetur.

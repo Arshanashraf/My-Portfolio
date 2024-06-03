@@ -38,15 +38,19 @@
     opacity: 0;
 } */
 .intro p{
+    margin-left: 2.3rem;
+    padding: 1rem;
     color: white;
     font-weight: 500;
     font-size: 22px;
     margin-top: 30px;
+    border-left: 1px solid #fff;
     width: 600px;
     line-height: 30px;
     animation: slideRight 1s ease forwards;
     animation-delay: 1.6s;
     opacity: 0;
+
 }
 .intro button{
     color: white;
