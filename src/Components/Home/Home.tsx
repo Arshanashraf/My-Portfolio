@@ -15,7 +15,7 @@ const Home = () => {
                 <button>Download Resume</button>
             </div>
         </Col>
-        <Col lg="6" md="12">
+        <Col lg="6" md="12" >
             <div className="mypic">
                 <img src={Propic} alt="" />
             </div>
@@ -27,7 +27,9 @@ const Home = () => {
             </div>
         </Col>
       </Row>
-    </div>
+      <div className="separation" ></div>
+      
+    </div > 
   )
 }
 
