@@ -11,7 +11,7 @@ const Home = () => {
             <div className='myIntro'>
                 <h1>Greetings, I'm  <span className='name'> M.Arshan Ashraf</span></h1>
                 <p>"Architects of the digital realm, shaping dreams into reality, one keystroke at a time."</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis nostrum totam vel, est odio? Nesciunt aperiam soluta dolorum dolor.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim reiciendis nostrum totam vel, est odio? Nesciunt soluta dolorum dolor.</p>
                 <button>Download Resume</button>
             </div>
         </Col>
