@@ -17,7 +17,7 @@ const Work = () => {
     <div className='work'>
       <div className="workContent">
         <h1>Offering insights from <span>Experience</span></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In reprehenderit deleniti dolores aut dolorem officiis ducimus </p>
+        <p>Passionate about design and innovation, always looking for ways to improve and create better user experiences. </p>
       </div>
 
       {/* ---------parallax effect-------------------- */}

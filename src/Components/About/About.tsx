@@ -12,10 +12,7 @@ const About = () => {
             <div className="aboutContent" >
             <h1>Personal <span>Overview</span></h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Perferendis odit doloribus modi cum sunt voluptatem vitae facere
-              sed id ipsa blanditiis sint laboriosam ut, asperiores quia
-              accusamus beatae soluta provident?
+            Hello, I'm Arshan, a passionate and skilled Front-End Developer with a keen eye for design and a deep understanding of web technologies. My journey in web development has equipped me with the ability to create visually stunning and highly functional user interfaces.
             </p>
             </div>
             

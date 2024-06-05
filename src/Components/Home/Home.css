@@ -32,11 +32,6 @@
     opacity: 0;
     /* text-shadow: 2px 2px 5px rgba(108,211,108,255); */
 }
-/* .greet{
-    animation: slideBottom 1s ease forwards;
-    animation-delay: 1s;
-    opacity: 0;
-} */
 .intro p{
     margin-left: 2.3rem;
     padding: 1rem;
@@ -55,6 +50,7 @@
 .intro button{
     color: white;
     border-radius: 50px;
+    margin-top: 2rem;
     border-width: 0;
     font-weight: 500;
     font-size: 16px;
