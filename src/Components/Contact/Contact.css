@@ -51,14 +51,14 @@
 }
 .floatingImage1{
     position: absolute;
-    top: 500%;
+    top: 550%;
     left: 15%;
     transform: rotate(-30deg);
     animation: float 5s ease-out infinite;
 }
 .floatingImage2{
     position: absolute;
-    top: 550%;
+    top: 600%;
     left: 10%;
     transform: rotate(30deg);
     animation: float 5s ease-out infinite;
@@ -66,7 +66,7 @@
 }
 .floatingImage3{
     position: absolute;
-    top: 520%;
+    top: 570%;
     right: 10%;
     transform: rotate(30deg);
     animation: float 5s ease-out infinite;
@@ -74,7 +74,7 @@
 }
 .floatingImage4{
     position: absolute;
-    top: 560%;
+    top: 610%;
     right: 15%;
     transform: rotate(-30deg);
     animation: float 5s ease-out infinite;
@@ -98,16 +98,16 @@
         width: 70%;
     }
     .floatingImage1{
-        top: 650%;
+        top: 720%;
         left: 5%;
     }
     .floatingImage2{
-        top: 700%;
+        top: 770%;
     }
     .floatingImage3{
-        top: 670%;
+        top: 740%;
     }
     .floatingImage4{
-        top: 720%;
+        top: 790%;
     }
 }

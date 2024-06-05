@@ -11,16 +11,13 @@ const Project = () => {
           My portfolio includes these <span>Projects:</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-          ratione! Omnis at voluptatem asperiores quidem nulla repudiandae culpa
-          voluptas magnam error.
+        My goal is to leverage my skills and experience to create engaging, high-performance web applications that provide an exceptional user experience. I am excited to work with forward-thinking companies where I can contribute to innovative projects and grow as a developer.
         </p>
       </div>
       <div className="projectCards">
         <Row>
           <Col lg="4">
-            <div className="card">
-              <Card >
+              <Card className="card1">
                 <Card.Img variant="top" src={proimg1} />
                 <Card.Body>
                   <Card.Title  className="title">Car Store</Card.Title>
@@ -30,12 +27,10 @@ const Project = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </div>
           </Col>
 
           <Col lg="4">
-            <div className="card">
-              <Card >
+              <Card className="card1">
                 <Card.Img variant="top" src={proimg1} />
                 <Card.Body>
                   <Card.Title className="title">Car Store</Card.Title>
@@ -45,12 +40,10 @@ const Project = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </div>
           </Col>
 
           <Col lg="4">
-            <div className="card">
-              <Card >
+              <Card className="card1">
                 <Card.Img variant="top" src={proimg1} />
                 <Card.Body>
                   <Card.Title className="title">Car Store</Card.Title>
@@ -60,7 +53,6 @@ const Project = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </div>
           </Col>
         </Row>
       </div>

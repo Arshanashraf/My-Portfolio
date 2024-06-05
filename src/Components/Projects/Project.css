@@ -19,7 +19,7 @@
     font-size: 18px;
     font-weight: 500;
 }
-.card{
+.card1{
     background: linear-gradient(rgba(45,190,184,255),rgba(108,211,108,255));
     border-radius: 25px;
     border-width: 1px;
@@ -35,9 +35,9 @@
     margin-top: 70px;
 }
 .card img{
-    width: 95%;
+    width: 93%;
     height: 200px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 10px;
     border-radius: 25px;
     border: 2px solid rgba(45,190,184,255);
@@ -49,4 +49,43 @@
 }
 .card .text{
     color: rgb(241, 241, 241);
+}
+@media (min-width: 820px) and (max-width: 991px){
+    .card1 {
+        width: 70%;
+        margin-top: 10px;
+    }
+    .projectCards{
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+    .projectContent p{
+        width: 90%;
+    }
+}
+@media (min-width: 631px) and (max-width: 819px){
+    .card1 {
+        width: 70%;
+        margin-top: 10px;
+    }
+    .projectCards{
+        margin-top: 0px;
+        margin-left: 150px;
+    }
+    .projectContent p{
+        width: 90%;
+    }
+}
+@media (max-width: 630px) {
+    .card1 {
+        width: 70%;
+        margin-top: 10px;
+    }
+    .projectCards{
+        margin-top: 0px;
+        margin-left: 130px;
+    }
+    .projectContent p{
+        width: 90%;
+    }
 }

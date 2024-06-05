@@ -51,9 +51,23 @@
     transform: scale(1.1);
 }
 @media (min-width: 576px) and (max-width: 767px){
+    .container{
+        margin-top: -10px;
+    }
     .nav{
-        margin-right: 3px;
+        background-color: rgba(0,20,27,255);
+        text-align: center;
+        margin-top: -5px;
+        margin-left: 400px !important;
         gap: 10px;
+        border-radius: 0px 0px 25px 25px;
+        width: 200px;
+        /* margin-right: 60px; */
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .logo{
+        margin-top: -5px;
     }
 }
 @media (max-width: 575px){
@@ -63,13 +77,16 @@
     .nav{
         background-color: rgba(0,20,27,255);
         text-align: center;
-        margin-top: -10px;
+        margin-top: -5px;
         gap: 10px;
         border-radius: 0px 0px 0px 25px;
         width: 200px;
         /* margin-right: 60px; */
         padding-bottom: 10px;
         padding-top: 10px;
+    }
+    .logo{
+        margin-top: -5px;
     }
 }
 @media (max-width: 365px){
