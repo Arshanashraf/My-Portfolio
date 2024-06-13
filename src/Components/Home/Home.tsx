@@ -5,14 +5,14 @@ import Gear1 from '../../assets/Images/gear.png'
 import './Home.css'
 const Home = () => {
   return (
-    <div className='home'>
+    <div id='home' className='home'>
       <Row className='intro'>
         <Col lg="6" md="12">
             <div className='myIntro'>
                 <h1>Greetings, I'm  <span className='name'> M.Arshan Ashraf</span></h1>
                 <p>"Architects of the digital realm, shaping dreams into reality, one keystroke at a time."</p>
                 
-                <button>Download Resume</button>
+                <button >Download Resume</button>
             </div>
         </Col>
         <Col lg="6" md="12" >
@@ -27,7 +27,7 @@ const Home = () => {
             </div>
         </Col>
       </Row>
-      <div className="separation" ></div>
+      <div id="about" className="separation" ></div>
       
     </div > 
   )

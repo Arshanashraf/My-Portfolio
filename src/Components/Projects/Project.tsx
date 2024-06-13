@@ -3,6 +3,8 @@ import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import proimg1 from '../../assets/Images/aboutPics/slider1.png'
+import proimg2 from '../../assets/Images/aboutPics/slider2.jpg'
+import proimg3 from '../../assets/Images/aboutPics/slider3.png'
 const Project = () => {
   return (
     <div>
@@ -22,8 +24,8 @@ const Project = () => {
                 <Card.Body>
                   <Card.Title  className="title">Car Store</Card.Title>
                   <Card.Text className="text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    In this web-based project, I utilized animations, a slider, and Bootstrap cards.
+                    <p className="mb-4">#react #Bootstrap #htmlcss</p>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -31,12 +33,12 @@ const Project = () => {
 
           <Col lg="4">
               <Card className="card1">
-                <Card.Img variant="top" src={proimg1} />
+                <Card.Img variant="top" src={proimg2} />
                 <Card.Body>
-                  <Card.Title className="title">Car Store</Card.Title>
+                  <Card.Title className="title">Texts Web Clone</Card.Title>
                   <Card.Text className="text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  This web application clone is entirely based on parallax effects and animations.
+                  <p>#react #parallax #animation #Bootstrap #htmlcss</p>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -44,12 +46,12 @@ const Project = () => {
 
           <Col lg="4">
               <Card className="card1">
-                <Card.Img variant="top" src={proimg1} />
+                <Card.Img variant="top" src={proimg3} />
                 <Card.Body>
-                  <Card.Title className="title">Car Store</Card.Title>
+                  <Card.Title className="title">Gym Web</Card.Title>
                   <Card.Text className="text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  This was my first creative web project and which is entirely based on Bootstrap .
+                  <p className="mb-4"> #Bootstrap #html #css</p>
                   </Card.Text>
                 </Card.Body>
               </Card>

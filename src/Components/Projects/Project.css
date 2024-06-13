@@ -37,7 +37,7 @@
 .card img{
     width: 93%;
     height: 200px;
-    margin-left: 15px;
+    margin-left: 11px;
     margin-top: 10px;
     border-radius: 25px;
     border: 2px solid rgba(45,190,184,255);
@@ -49,6 +49,11 @@
 }
 .card .text{
     color: rgb(241, 241, 241);
+    font-size: 14px;
+}
+.card p{
+    margin: 3px;
+    color:blue;
 }
 @media (min-width: 820px) and (max-width: 991px){
     .card1 {

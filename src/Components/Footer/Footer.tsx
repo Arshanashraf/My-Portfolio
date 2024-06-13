@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
       <div className="footer">
         <Row>
-          <Col lg="5">
+          <Col lg="5" md="5">
             <div className="footerHeading">
               <div className="footerlogo"><img src={foologo} alt="" />Arshan<span>Dev</span></div>
               <div className="foopara">
@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
             </div>
           </Col>
-          <Col lg="3">
+          <Col lg="3" md="3">
             <div className="foolist">
               <ul>
                 <li><a href="#">About</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col lg="4">
+          <Col lg="4" md="4">
             <div className="fooicons">
             <div className="iconhead">Follow me</div>
             <div className="iconlogos">

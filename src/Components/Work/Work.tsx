@@ -14,8 +14,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 const Work = () => {
   return (
-    <div className='work'>
-      <div className="workContent">
+    <div  className='work'>
+      <div id='work' className="workContent">
         <h1>Offering insights from <span>Experience</span></h1>
         <p>Passionate about design and innovation, always looking for ways to improve and create better user experiences. </p>
       </div>

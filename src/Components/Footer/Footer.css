@@ -70,3 +70,21 @@
     margin-top: 40px;
     padding: .5rem 2rem;
 }
+@media (min-width: 768px)and (max-width: 991px){
+    .foolist ul{
+        margin-top: 11rem;
+        margin-left: 2rem;
+    }
+    .fooicons{
+        margin-top: 12rem;
+        margin-left: 2.5rem;
+    }
+}
+@media(max-width: 767px){
+    .foolist ul{
+        margin-left: 1rem;
+    }
+    .foopara p{
+        margin-left: 70px;
+    }
+}
