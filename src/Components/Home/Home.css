@@ -13,6 +13,10 @@
     position: absolute;
     z-index: 100;
 }
+.separation{
+    margin-top: 350px;
+    width: 0px;
+}
 .intro h1{
     color: white;
     /* width: 100%; */
@@ -187,6 +191,10 @@
         top: 100%;
         right: 15%;
     }
+    .separation{
+        margin-top: 650px;
+        width: 0px;
+    }
 }
 @media (min-width: 640px) and (max-width: 702px){
     .home {
@@ -210,6 +218,10 @@
     .gear2 img{
         top: 100%;
         right: 15%;
+    }
+    .separation{
+        margin-top: 650px;
+        width: 0px;
     }
 }
 @media  (max-width: 639px){
@@ -237,5 +249,9 @@
         top: 120%;
         right: 10%;
         height: 200px;
+    }
+    .separation{
+        margin-top: 650px;
+        width: 0px;
     }
 }

@@ -11,7 +11,7 @@ import flo4 from '../../assets/Images/skillslogos/css.webp'
 const Contact = () => {
   return (
     <div>
-      <div className="contact">
+      <div id='contact' className="contact">
         <h1>Feel free to <span>Contact.</span></h1>
       <Form>
       <Row className="mb-3">
