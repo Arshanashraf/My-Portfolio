@@ -14,7 +14,7 @@ function App() {
     <>
       <div className='app'>
         <MainNav/>
-        <Home/>
+        <Home />
         <About/>
         <Work/>
         <Project/>

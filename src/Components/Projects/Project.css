@@ -5,6 +5,9 @@
 .projectContent h1{
     color: white;
 }
+a{
+    text-decoration: none;
+}
 .projectContent span{
     font-size: 60px;
     font-weight: 900;
@@ -55,9 +58,17 @@
     margin: 3px;
     color:blue;
 }
+@media (min-width: 992px) and (max-width: 1115px){
+    .card1a{
+        height: 440px;
+    }
+    .card3a{
+        height: 440px;
+    }
+}
 @media (min-width: 820px) and (max-width: 991px){
     .card1 {
-        width: 70%;
+        /* width: 70%; */
         margin-top: 10px;
     }
     .projectCards{
@@ -70,7 +81,7 @@
 }
 @media (min-width: 631px) and (max-width: 819px){
     .card1 {
-        width: 70%;
+        /* width: 70%; */
         margin-top: 10px;
     }
     .projectCards{

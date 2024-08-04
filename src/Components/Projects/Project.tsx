@@ -18,8 +18,9 @@ const Project = () => {
       </div>
       <div className="projectCards">
         <Row>
-          <Col lg="4">
-              <Card className="card1">
+          <Col lg="4" md="5">
+          <a href="https://github.com/Arshanashraf/Car-Store-Vite-React" target="_blank">
+              <Card className="card1 card1a" >
                 <Card.Img variant="top" src={proimg1} />
                 <Card.Body>
                   <Card.Title  className="title">Car Store</Card.Title>
@@ -29,9 +30,11 @@ const Project = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
+              </a>
           </Col>
 
-          <Col lg="4">
+          <Col lg="4" md="5">
+          <a href="https://github.com/Arshanashraf/Texts-App-Clone" target="_blank">
               <Card className="card1">
                 <Card.Img variant="top" src={proimg2} />
                 <Card.Body>
@@ -42,10 +45,12 @@ const Project = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
+              </a>
           </Col>
 
-          <Col lg="4">
-              <Card className="card1">
+          <Col lg="4" md="5">
+          <a href="https://github.com/Arshanashraf/Html-CSS-Websites/tree/main/myCreativeWeb" target="_blank">
+              <Card className="card1 card3a">
                 <Card.Img variant="top" src={proimg3} />
                 <Card.Body>
                   <Card.Title className="title">Gym Web</Card.Title>
@@ -55,6 +60,7 @@ const Project = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
+              </a>
           </Col>
         </Row>
       </div>
