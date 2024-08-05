@@ -74,8 +74,9 @@
 
 }
 .mypic img{
-    height: 300px;
-    margin-left: 100px;
+    height: 500px;
+    margin-left: -40px;
+    margin-top: -70px;
     /* border-radius: 25px 0px 25px 0px; */
     /* border-radius: 15%; */
     /* box-shadow: 20px 20px 30px rgba(45,190,184,255) ; */
@@ -160,7 +161,7 @@
 
 @media (min-width: 992px) and (max-width: 1115px){
     .mypic img{
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
     .intro h1{
         width: 500px;
@@ -174,8 +175,9 @@
         height: 900px;
     }
     .mypic img{
-        margin-top: 350px;
-        height: 350px;
+        margin-top: 200px;
+        margin-left: 80px;
+        height: 500px;
     }
     .intro h1{
         width: 100%;
@@ -184,12 +186,12 @@
         width: 80%;
     }
     .gear1 img{
-        top: 70%;
+        top: 60%;
         left: 20%;
     }
     .gear2 img{
-        top: 100%;
-        right: 15%;
+        top: 90%;
+        right: 30%;
     }
     .separation{
         margin-top: 650px;

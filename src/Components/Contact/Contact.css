@@ -51,14 +51,14 @@
 }
 .floatingImage1{
     position: absolute;
-    top: 550%;
+    top: 500%;
     left: 15%;
     transform: rotate(-30deg);
     animation: float 5s ease-out infinite;
 }
 .floatingImage2{
     position: absolute;
-    top: 600%;
+    top: 550%;
     left: 10%;
     transform: rotate(30deg);
     animation: float 5s ease-out infinite;
@@ -66,7 +66,7 @@
 }
 .floatingImage3{
     position: absolute;
-    top: 570%;
+    top: 520%;
     right: 10%;
     transform: rotate(30deg);
     animation: float 5s ease-out infinite;
@@ -74,7 +74,7 @@
 }
 .floatingImage4{
     position: absolute;
-    top: 610%;
+    top: 560%;
     right: 15%;
     transform: rotate(-30deg);
     animation: float 5s ease-out infinite;
