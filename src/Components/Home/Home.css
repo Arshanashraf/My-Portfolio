@@ -159,9 +159,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1115px){
-    .mypic img{
-        /* margin-left: 10px; */
-    }
+    
     .intro h1{
         width: 500px;
     }
