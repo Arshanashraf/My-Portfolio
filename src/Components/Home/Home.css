@@ -34,7 +34,6 @@
     animation: slideBottom 1s ease forwards;
     animation-delay: 2s;
     opacity: 0;
-    /* text-shadow: 2px 2px 5px rgba(108,211,108,255); */
 }
 .intro p{
     margin-left: 2.3rem;
@@ -160,9 +159,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1115px){
-    .mypic img{
-        /* margin-left: 10px; */
-    }
+    
     .intro h1{
         width: 500px;
     }
