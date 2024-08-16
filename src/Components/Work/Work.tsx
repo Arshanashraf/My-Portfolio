@@ -395,12 +395,7 @@ const Work = () => {
             
           </Col>
 
-          {/* <Col lg="2" md="2" sm="3" xs="4">
-          <div className="allskilllogos">
           
-          </div>
-            
-          </Col> */}
 
           <Col lg="2" md="2" sm="3" xs="4">
           <div className="allskilllogos  ">
